@@ -18,6 +18,6 @@ class Solution {
                     index[nums[i]] = i;
                 }
             }
-            return false;
+            return false; 
         }
     };
