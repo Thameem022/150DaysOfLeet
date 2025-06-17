@@ -13,7 +13,7 @@ class Solution {
                 {"+", [](int a, int b){return a+b; }},
                 {"-", [](int a, int b){return a-b; }},
                 {"*", [](int a, int b){return a*b; }},
-                {"/", [](int a, int b){return a/b; }},
+                {"/", [](int a, int b){return a/b; }}, 
             };
             for(const auto& token:tokens)
             {
